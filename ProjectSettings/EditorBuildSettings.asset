@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: ddf3e514115a14cd2b776ada397442a3
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/BlankAR.unity
+    guid: 6bdce89659816455b9f906fc62d19910
+  - enabled: 1
+    path: Assets/Scenes/ImageTRack.unity
+    guid: ebf223cd89632a94da750b7a970e18c0
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 1cc4491264932f844864ffc62c4a335e, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0cb99eb8cb44e7240b56822abeda1fc7, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 4b1b9af2455137743bb3eec59b34e963, type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: e032516ed3108544db5640bcdbf5a224, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 58f40b12bbc864f3c96c6505a9a1e1e3, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: aa6be87e861181f42a60eec01df8db2b, type: 2}

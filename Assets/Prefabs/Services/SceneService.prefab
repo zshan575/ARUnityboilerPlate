@@ -25,12 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7847452609145234787}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6719988270421093388
 MonoBehaviour:
@@ -45,8 +46,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameScene:
-    sceneAsset: {fileID: 102900000, guid: ddf3e514115a14cd2b776ada397442a3, type: 3}
-    scenePath: Assets/Scenes/Game.unity
+    sceneAsset: {fileID: 102900000, guid: 6bdce89659816455b9f906fc62d19910, type: 3}
+    scenePath: Assets/Scenes/BlankAR.unity
+  gameScene2:
+    sceneAsset: {fileID: 102900000, guid: ebf223cd89632a94da750b7a970e18c0, type: 3}
+    scenePath: Assets/Scenes/ImageTRack.unity
   mainScene:
     sceneAsset: {fileID: 102900000, guid: 2cda990e2423bbf4892e6590ba056729, type: 3}
     scenePath: Assets/Scenes/Main.unity

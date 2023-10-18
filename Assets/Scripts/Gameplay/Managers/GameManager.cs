@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        Init();
+      //  Init();
 
         this.PerformActionWithDelay(5f, ()=> {
             Services.GameService.SetState<MenuState>();

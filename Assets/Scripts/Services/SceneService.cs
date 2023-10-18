@@ -6,11 +6,15 @@ using UnityEngine.SceneManagement;
 public class SceneService : MonoBehaviour
 {
     [SerializeField] private SceneReference gameScene;
+    [SerializeField] private SceneReference gameScene2;
     [SerializeField] private SceneReference mainScene;
 
     public void LoadGameScene()
     {
-        SceneManager.LoadSceneAsync(gameScene);
+        if(Services.GameService.gameMode == GameMode.SinglePlayer)
+            SceneManager.LoadSceneAsync(gameScene);
+        else
+            SceneManager.LoadSceneAsync(gameScene2);
     }
 
     public void LoadMainScene()
