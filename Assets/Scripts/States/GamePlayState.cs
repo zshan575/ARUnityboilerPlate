@@ -26,8 +26,8 @@ public class GamePlayState : _StatesBase
 	{
 		Debug.Log("Game Play State OnDeactivate");
 
-		Services.PlayerService.SetTimeSpent(Time.time - gamePlayDuration);
-		Services.GameService.SetGameTime(Time.time - gamePlayDuration);
+		//Services.PlayerService.SetTimeSpent(Time.time - gamePlayDuration);
+		//Services.GameService.SetGameTime(Time.time - gamePlayDuration);
 	}
 
 	public override void OnUpdate()
